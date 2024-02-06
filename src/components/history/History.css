@@ -1,0 +1,36 @@
+.history {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: auto;
+  overflow-y: scroll;
+}
+
+.history > .roll {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 30px 10px;
+  font-size: large;
+}
+
+.history > .roll > .dices {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 200px;
+  gap: 10px;
+}
+
+.history > .roll > .dices > .dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--foreground);
+  border-radius: 5px;
+}

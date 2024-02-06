@@ -1,0 +1,48 @@
+.current-roll {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  justify-content: center;
+}
+
+.current-roll > .form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.current-roll > .form > input {
+  font-size: medium;
+  width: 60px;
+}
+
+.current-roll > .dices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.current-roll > .dices > .dice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  font-size: x-large;
+  border: 1px solid var(--foreground);
+  border-radius: 8px;
+}
+
+.current-roll > .utils {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: xx-large;
+}
+
